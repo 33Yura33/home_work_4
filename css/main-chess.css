@@ -1,0 +1,26 @@
+.board{
+	width: 600px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.board-block{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.board-block img{
+	width: 90%;
+}
+.board-block{
+	background-color: #fff;
+}
+
+.board-block:nth-child(odd){
+	background-color: #850000;
+}
+
